@@ -47,6 +47,7 @@ author:
 '''
 
 EXAMPLES = '''
+# gather_facts should be set to yes in the target section
 # Example that prints the loopback address and gateway for each host
 - debug:
     msg: "System {{ inventory_hostname }} has uuid {{ ansible_product_uuid }}"
